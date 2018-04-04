@@ -1,0 +1,94 @@
+section.home {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    background: url('../img/home-bg.jpg') no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+    }
+
+    .social-medias {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        .social-link {
+            font-size: 1.25em;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+            margin: 30px 15px;
+            opacity: .8;
+        }
+
+    }
+    
+    .logo-wrapper {
+        height: 33vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        opacity: .8;
+
+        .subtitle {
+            font-size: 4.3em;
+            text-transform: uppercase;
+            font-weight: 100;
+            letter-spacing: -2px;
+            margin: 0;
+
+            .bold {
+                font-weight: 400;
+            }
+        }
+    }
+
+    .sound-plataforms {
+        width: 100%;
+        position: relative;
+        margin-bottom: 30px;
+
+        .title {
+            font-family: 'EB Garamond', serif;  
+            text-align: center;
+            font-size: 1.6em;
+            letter-spacing: 3px;
+            width: 100%;
+            opacity: .8;
+        }
+
+        .sound-icons {
+            display: flex;
+            justify-content: space-around;
+            width: 33%;
+            margin: 0 auto;
+        }
+
+        .download-link {
+            text-align: right;
+            text-decoration: none;
+            position: absolute;
+            right: 0;
+            top: 90px;
+
+            p {
+                font-size: 1.2em;
+                text-transform: uppercase;
+                color: #ffffff;
+                font-weight: bold;
+                opacity: .8;
+            }
+        }
+    }
+}
