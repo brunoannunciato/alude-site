@@ -11,3 +11,8 @@ section {
     height: 100vh;
     display: block;
 }
+
+h1::selection, h2::selection, h3::selection, p::selection, a::selection, span::selection, .logo::selection {
+    background: #e07300;
+    color: #000000;
+}

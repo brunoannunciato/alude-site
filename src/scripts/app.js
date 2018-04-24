@@ -1,9 +1,7 @@
 'use strict';
 
-// require('fullpage.js/dist/jquery.fullpage.min.js');
+var slider = require('modules/slider');
 
-var fullpage = require('modules/fullpage');
-
-$(function () {
-     // fullpage();
-});
+(function () {
+     slider();
+})();

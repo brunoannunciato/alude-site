@@ -1,0 +1,47 @@
+section.alude {
+    background: #1c1122;
+    background: linear-gradient(to bottom, #1c1122 0%,#291424 100%);
+    padding: 3% 0;
+    color: #fff;
+    box-sizing: border-box;
+
+    .container {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .logo-min {
+        width: 80%;
+        max-width: 300px;
+        margin: 0 auto;
+        display: block;
+        user-select: none;
+    }
+
+    .band-intro {
+        letter-spacing: 3px;
+        line-height: 25px;
+        width: 70%;
+        font-size: 1.125em;
+        text-align: justify;
+        margin: 5% auto;
+    }
+
+    .band-quote {
+        font-family: 'EB Garamond', serif;
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .slider {
+        width: 400px;
+
+        .slide {
+            width: 300px;
+            height: 250px;
+            background: red;
+            margin: 0 40px;
+        }
+    }
+}
